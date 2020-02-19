@@ -2,8 +2,6 @@ const express = require('express');
 
 const carsRouter = require('./cars/carRouter');
 
-const db = require('./data/car-dealer.db3');
-
 const server = express();
 
 server.use(express.json());
